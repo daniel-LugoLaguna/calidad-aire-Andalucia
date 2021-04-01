@@ -1,6 +1,6 @@
 # calidad-aire-Andalucia
 
-Autores:
+## Autores
 
 Daniel Lugo Laguna
 Pablo Mora Galindo
