@@ -1,5 +1,12 @@
 # calidad-aire-Andalucia
 
+Autores:
+
+Daniel Lugo Laguna
+Pablo Mora Galindo
+
+## Descripción
+
 Web Scraper para la generación de un dataset histórico de calidad del aire en Andalucía. Los datos han sido tomados de la página Web oficial de la Junta de Andalucía, en el apartado de informes SIVA y mediciones de tipo cuantitativo.
 
 Para poder ejecutar el código del presente proyecto es necesario instalar las siguientes librerías:
