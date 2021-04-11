@@ -65,6 +65,7 @@ if status_code == 200:
     l_fechas_2020 = [(ini_2020 + timedelta(days=d)).strftime("%Y-%m-%d")
                         for d in range((fin_2020 - ini_2020).days + 1)]
 
+    # Lista de provincias
     l_prov_id = ['al', 'ca', 'co', 'gr', 'hu', 'ja', 'ma', 'se']
     for prov_id in l_prov_id:
         # Seleccionamos la provincia correspondiente
