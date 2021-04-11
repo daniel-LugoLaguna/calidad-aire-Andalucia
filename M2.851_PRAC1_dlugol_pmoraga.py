@@ -192,8 +192,8 @@ if status_code == 200:
     # Añadimos nuevo índice
     df_final = df_final.reset_index()
 
-    # Generamos fichero AirQualityAndalusia2020_Sevilla.csv
-    df_final.to_csv('AirQualityAndalusia2020_Sevilla.csv', index = False, header=True,encoding='utf-8-sig',sep=',')
+    # Generamos fichero AirQualityAndalusia2020.csv
+    df_final.to_csv('AirQualityAndalusia2020.csv', index = False, header=True,encoding='utf-8-sig',sep=',')
     driver.close()
 else:
     print("Status code %d" % status_code)
