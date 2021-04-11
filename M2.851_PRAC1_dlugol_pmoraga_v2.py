@@ -190,7 +190,7 @@ if status_code == 200:
     df_final = df_final.reset_index()
 
     # Generamos fichero AirQualityAndalusia.csv
-    df_final.to_csv('AirQualityAndalusia_{}_{}.csv'.format(prov_name, fecha), index = False, header=True,encoding='utf-8-sig',sep=';')
+    df_final.to_csv('AirQualityAndalusia_{}_{}.csv'.format(prov_name, fecha), index = False, header=True,encoding='utf-8-sig',sep=',')
     driver.close()
 else:
     print("Status code %d" % status_code)
