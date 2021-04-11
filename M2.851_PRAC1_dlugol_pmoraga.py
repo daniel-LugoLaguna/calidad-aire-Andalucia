@@ -65,11 +65,7 @@ if status_code == 200:
     l_fechas_2020 = [(ini_2020 + timedelta(days=d)).strftime("%Y-%m-%d")
                         for d in range((fin_2020 - ini_2020).days + 1)]
 
-    # Debido al límite de tamaño permitido por GitHub NO ES POSIBLE subir el dataset completo de las 8 provincias andaluzas (tamaño 413.37MB). Por ello limitamos las provincias a Sevilla solo,
-    # dejando constancia de la intención de sacar un conjunto de datos completo de Andalucía con más de 4 millones de registros lo que posibilitaría un gran y óptimo estudio/análisis al tener
-    # tantos datos comparables.
-    #l_prov_id = ['al', 'ca', 'co', 'gr', 'hu', 'ja', 'ma', 'se']
-    l_prov_id = ['se']
+    l_prov_id = ['al', 'ca', 'co', 'gr', 'hu', 'ja', 'ma', 'se']
     for prov_id in l_prov_id:
         # Seleccionamos la provincia correspondiente
         WebDriverWait(driver, 5)\
