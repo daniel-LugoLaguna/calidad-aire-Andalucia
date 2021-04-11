@@ -1,8 +1,9 @@
 # calidad-aire-Andalucia
 
-Autores:
+## Autores
 
 Daniel Lugo Laguna
+
 Pablo Mora Galindo
 
 ## Descripción
@@ -20,4 +21,4 @@ import math
 from itertools import zip_longest
 ```
 
-En esta entrega parcial del código del proyecto, se extraen los datos para el día 15/03/2021 y la provincia de Sevilla. En la entrega final, se pretende ampliar el alcance de datos históricos a una franja temporal más amplia, así como a todas las provincias andaluzas.
+En esta proyecto, se proporciona un dataset para todas las mediciones de calidad del aire en Andalucía durante el año 2020, proporcionadas por la Junta de Andalucía. Se proporciona una función adicional para la obtención de datos para un intervalo y provincia personalizable por el usuario.
