@@ -27,4 +27,4 @@ from selenium.webdriver.common.keys import Keys
 from datetime import datetime, timedelta
 ```
 
-En esta proyecto, se proporciona un dataset para todas las mediciones de calidad del aire en Andalucía durante el año 2020, proporcionadas por la Junta de Andalucía. Se proporciona una función adicional para la obtención de datos para un intervalo y provincia personalizable por el usuario.
+En esta proyecto, se proporciona un dataset para todas las mediciones de calidad del aire en Andalucía durante el año 2020, proporcionadas por la Junta de Andalucía. Se proporciona una función adicional para la obtención de datos para un intervalo y provincia personalizable por el usuario. El dataset está disponible en: https://zenodo.org/record/4681703#.YHSYxOj7SUk
